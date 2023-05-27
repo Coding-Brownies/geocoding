@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"os"
 
+	// import godotenv
 	"github.com/joho/godotenv"
 )
 
 func main() {
-	// load the .env file
+	// load the .env file from the current directory
 	godotenv.Load()
 
 	// get the env variable
